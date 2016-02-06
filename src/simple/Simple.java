@@ -18,8 +18,8 @@ public class Simple extends EZPlugin {
     public void simpleCommand(MessageReceiver caller, String[] parameters) {
         if (caller instanceof Player) {
             Player me = (Player) caller;
-            int myAge = 11;
-            int twicemyAge = 11 * 2;
+            int myAge = 12;
+            int twicemyAge = myAge * 2;
             float volume = 0.1f;
             float pitch = 1.0f;
             double dayOnIo = 152853.5047;
